@@ -1,0 +1,15 @@
+{% extends "layout.html" %} <!-- Utiliza el código de estilo definido en layout.html--> 
+                            <!-- Esta pàgina es mucho más sencilla que home_old. html -->
+{% block content %}         <!-- ya que reutiliza el código de finido en layout (Cabecera y navegación-->
+<!--<h1>Home</h1> vamos a reemplazador este contenido por un recuadro de bienvenida (Jumbotron)
+    (obtenido en la pàgina getbootstrap.com)-->
+    <div class="jumbotron">
+        <h1 class="display-4">Hola Mundo!</h1>
+        <p class="lead"> jumbotron-style es un componente simple para llamar la atención
+                        sobre contenido o información destacada.</p>
+        <hr class="my-4">
+        <p>Utiliza clases de utilidad para la tipografía y el espaciado para espaciar el contenido dentro
+           de un contenedor más grande.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>    
+{% endblock %}

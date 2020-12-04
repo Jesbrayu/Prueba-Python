@@ -1,0 +1,9 @@
+ body {
+    /* background-color: aqua;  /*Establece el color de fondo de la pàgina*/
+    color: blueviolet; /*Establece el color del texto*/
+    /* Utilizamos el código gradiente de color de la pàgina https://uigradients.com/#MegaTron como color de fondo*/
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+ }
